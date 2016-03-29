@@ -24,5 +24,6 @@ Run
 docker run \
     --name nginx-php5.6 \
     -p 80:80 \
+    -v /path/to/local/www:/var/www/html \
     andreisusanu/nginx-php5.6
 ```

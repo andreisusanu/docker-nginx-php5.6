@@ -4,10 +4,8 @@
 nginx-php5.6
 ============
 
-Docker image for NGINX and PHP5.6, started using Supervisor.
-
-Last stable NGINX installed from official stable repository (http://ppa.launchpad.net/nginx/stable/ubuntu)
-Last PHP5.6 installed from Ondřej Surý's unofficial repository (http://ppa.launchpad.net/ondrej/php5/ubuntu)
+Docker image for Ubuntu Xenial, NGINX and PHP5.6.
+Supervisor is used to start services (php5-fpm and nginx).
 
 
 Build image

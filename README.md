@@ -28,9 +28,13 @@ docker run \
 
 Test container
 --------------
-Visit http://localhost:8000/
+```bash
+http://localhost:8000/
+```
 
 
 Run bash on container (for debug)
 ---------------------------------
+```bash
 docker exec -it nginx-php5.6 bash
+```
